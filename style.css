@@ -7,9 +7,8 @@
 * {
   box-sizing: border-box;
 }
-
 body {
-  background-color: #f7f7f7;
+  background-color: hsla(180, 12%, 64%, 0.103);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +21,15 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  
+}
+
+h2{
+  color: #000000;
+  font-size: xx-large;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
 }
 
 h1 {
@@ -90,7 +98,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #5140b3;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
